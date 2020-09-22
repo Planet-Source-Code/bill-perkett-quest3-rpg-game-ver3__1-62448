@@ -1,0 +1,36 @@
+xxxxyyyyfixxfixy
+0040004600000000Man:
+0035004800350038B1
+<SPEECH>
+<0001>
+Man: I go back as soon as I am done?
+0000=Bye
+QuestYes!0006
+<0008>
+Man: What do you want?
+0010=Do you have any advice?
+0015=Where is Nora's husband?
+0000=Bye
+QuestYes!0009
+<0009>
+Man: What do you want?
+0010=Do you have any advice?
+0011=Where is Nora's husband?
+0000=Bye
+<0010>
+Man: Can't you see that I am busy now?
+0011=Where is Nora's husband?
+0000=Bye
+<0011>
+Man: I said, go away!
+0010=Do you have any advice?
+0000=Bye
+<0015>
+Man: I am, Why do you ask
+0010=Do you have any advice?
+0000=Bye
+BombQty!02
+Give!Coin
+GiveQty!10
+EndQuest!0006
+

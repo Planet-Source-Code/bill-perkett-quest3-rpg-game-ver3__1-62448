@@ -1,0 +1,50 @@
+CharY = 39     If CharX = 18 Then      "White Wizard: Good to see you. In this island you will find the first temple,
+CharY = 31    If CharX = 15 Then "The sign reads: Entering the forest of kings.
+charY = 11       CharX = 19 Then "The sign reads: Lost Village.
+CharY = 6  CharX = 10 Then      "Lady: " & Message(3)
+CharY = 7  CharX = 5 Then"Lady: " & Message(4)
+CharY = 10 CharX = 31 Then = "Boy: " & Message(5)
+CharY = 32  CharX = 61 Then  "Boy: " & Message(18)
+ItemTownFound1 = False Then
+  Toast = Toast + 1
+          frmGame.txtSpeech.Text = "Boy: " & Message(19)
+        Else
+          frmGame.txtSpeech.Text = "Boy: " & Message(25)
+CharY = 30 Then CharX = 61 Then"The sign reads: " & Message(22)
+CharY = 29 Then CharX = 59 Then
+If Ticket < 1 Then
+        frmGame.txtSpeech.Text = "Soldier: Only royal family may pass to the Temple of Glory."
+      Else
+        frmGame.txtSpeech.Text = "Soldier: " & Message(27)
+        Mid(Map(31), 61, 1) = "G"
+CharY = 29 Then CharX = 60 Then "Soldier: ZzzZzz... ZzzZZzz..."
+charY = 26 Then    If CharX = 58 Then "Soldier: Thats good, the troop is alive!!!."
+CharY = 26 Then    If CharX = 61 Then "Soldier: " & Message(30)
+  Message(3) = "This village is lost. No one has ever found us except for the Black Wizard and you!!"
+  Message(4) = "It wont be easy to get with the Black Wizard, there are some obstalces you must reach first to get to him."
+  Message(5) = "How the hell you got here!!. O well you are welcome any ways to the Lost Village."
+  Message(6) = "Strange. If you look to the right you will see another room, but i dont know how to get there."
+  Message(7) = "Me and my troops got lost on the forest and by luck we were rescue by the villagers from this town. As our gratitud we offer them our protection."
+  Message(8) = "I wonder how the king is."
+  Message(9) = "Were are you heading to??. Ohhh!!. You are the chosen one, you whont be able to pass to the temple without something to prove it."
+ Message(10) = "Ahhhh!! im so hungry, i whant some food."
+ Message(11) = "You found some wood! This thing doesnt has any use to you but you could try to give it to someone."
+ Message(12) = "Give me 50 coins and i will use my sword to cut that tree thats blocking your way."
+ Message(13) = "Nothing in there."
+ Message(14) = "Thanks!!"
+ Message(15) = "Hey. Give me 20 of wood and i will fix the hole of water in the floor."
+ Message(16) = "You found a Coin! With coins you can buy things to get equiped."
+ Message(17) = "Well thanks for cutting the weeds. Just kidding, you have now learned the Destroy Spell, now you can destroy hills!!. Press the X for this."
+ Message(18) = "That rock is not leting my weeds grow. Take it off and i will give you something."
+ Message(19) = "Thanks for removing it. Take this Bread as my gratitud."
+ Message(20) = "You found a bag of Magic! With this your magic increments by 10 and you can make spells."
+ Message(21) = "You got no magic, you need to get some more to make your spells."
+ Message(22) = "Temple of Glory."
+ Message(23) = "Only royal family may pass to the Temple of Glory."
+ Message(24) = "Hey i got my own shop but i cant sell you anything right now. I wonder why nobody comes!!."
+ Message(25) = "Thanks for removing it."
+ Message(26) = "Wow, thanks kid for the bread!!. Here you will need this Gold Ticket to pass to the Temple of Glory."
+ Message(27) = "Ohh!!. This ticket is from the lost troop!!. So they are alive!!, i will let you pass to so you can tell the king. You may stay with the ticket as a prove."
+ Message(28) = "ZzzZzz... ZzzZZzz..."
+ Message(29) = "Thats good, the troop is alive!!!."
+ Message(30) = "How did you find them??."

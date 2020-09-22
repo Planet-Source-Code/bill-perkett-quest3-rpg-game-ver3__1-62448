@@ -1,0 +1,12 @@
+xxxxyyyyfixxfixy
+0010001700280032A1
+0020001200000000Sign:
+<SPEECH>
+<0001>
+Sign: Password XVB.
+0000=Goodby
+EndQuest!0016
+<0005>
+Sign: Password ???
+0000=Goodby
+

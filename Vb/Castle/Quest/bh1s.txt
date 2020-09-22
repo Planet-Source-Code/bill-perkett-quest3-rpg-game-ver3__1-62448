@@ -1,0 +1,33 @@
+xxxxyyyyfixxfixy
+0009001600000000Lady: 
+0007001700070007B1
+<THOUGHT>
+Name!Lady:
+Thought!Ha ha ha
+Pence!I want to take a key.
+<SPEECH>
+<0001>
+Lady: Strange. If you look to the right you will see another room, but i dont know how to get there.
+0005=How do I get in there?
+0000=Bye
+QuestNo!0011
+TakeAny!
+<0003>
+Lady: Strange. If you look to the right you will see another room, but i dont know how to get there.
+0005=How do I get in there?
+0000=Bye
+DoQuest!0011
+QuestName!Enter Secret room
+<0005>
+Lady: I not really sure.
+0000=Bye
+<0006>
+Lady: You found the key to the lost room
+NeedItem!YkEY
+NEEDQTY!01
+FixX!0013
+FIXY!0017
+EndQuest!0011
+BombQty!01
+0000=Bye
+

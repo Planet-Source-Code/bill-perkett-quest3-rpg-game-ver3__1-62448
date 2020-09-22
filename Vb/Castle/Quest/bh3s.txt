@@ -1,0 +1,65 @@
+xxxxyyyyfixxfixy
+0007001900000000Soldier 1:
+0018001500000000Soldier 2:
+0020001500000000Soldier 3: 
+0022001500000000Soldier 4: 
+0008002000080010B1
+<SPEECH>
+<0001>
+Soldier 1: Me and my troops got lost on the forest.
+0002=How did you get here?
+0003=What do you do?
+0000=Ok
+<0002>
+Soldier 1: By luck we were rescue by the villagers from this town. 
+0003=What do you do?
+0001=Where are you from?
+0000=Ok
+<0003>
+Soldier 1: As our gratitud we offer the villagers our protection.
+0002=How did you get here?
+0001=Where are you from?
+0000=Ok
+<0004>
+Soldier 2: I wonder how the king is.
+0000=Bye
+<0005>
+Soldier 3: Hello
+0006=Were are you from?.
+0007=How can I get in? 
+0008=Tell me about the temple
+0000=bye
+<0006>
+Soldier 3: We are from the Temple of Glory.
+0007=How can I get in? 
+0008=Tell me about the temple
+0000=bye
+<0007>
+Soldier 3: I am not sure.
+0006=Were are you from?.
+0008=Tell me about the temple
+0000=bye
+<0008>
+Soldier 3: You wont be able to pass to the temple without something to prove it.
+0006=Were are you heading from?.
+0007=How can I get in? 
+0000=bye
+<0010>
+Soldier 4: It is a long walk
+0015=Tell me about it
+0000=Bye
+<0015>
+Soldier 4: Ahhhh!! I'm so hungry, I want some food.
+DoQuest!0008
+QuestName!Find food for Soldier 4
+0000=Bye
+<0020>
+Soldier 4: Wow, thanks for the bread!!. Here you will need this Gold Ticket to pass to the Temple of Glory.
+EndQuest!0008
+NeedQty!01
+NeedItem!Toast
+0000=Thanks
+Give!Ticket
+Giveqty!50
+DoQuest!0012
+QuestName!Enter the temple of Glory

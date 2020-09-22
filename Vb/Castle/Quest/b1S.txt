@@ -1,0 +1,151 @@
+xxxxyyyyfixxfixy
+0018003800000000White Wizard: 
+0015003000000000Sign F:
+0020001200000000Sign ?:
+0010000500000000Lady:
+0005000600000000Girl: 
+0031000900000000Boy: 
+0061003100000000Lad: 
+0061002900000000Sign T: 
+0060002800000000Soldier 1: 
+0059002800000000Soldier 2:
+0058002500000000Soldier 3: 
+0061002500000000Soldier 4: 
+0007000600070017BH1
+0024000800210019BH2
+0008000900080020BH3
+0036000700360018BH4
+0038003700380048BH6
+0035003700350048BH7
+0059002200590033BH8
+0064003100380048BH9
+0069003000380048BHA
+0035005300380048BHB
+0029005300380048BHC
+0026005400380048BHD
+0059005500000000Sign U:
+0015004000640010A1
+0064005600620010C1
+0059003800620010C1
+<SPEECH>
+<0001>
+White Wizard: Good to see you.
+0005=What is here?
+0006=Are there any temples?
+0030=Any thing else? 
+0000=Goodby
+EndQuest!0009
+<0004>
+White Wizard: Good to see you. 
+0005=What is here?
+0006=Are there any temples?
+0000=Goodby
+<0005>
+White Wizard: In this island you will find the first temple, 
+0006=Any thhing else?
+0000=Goodby
+<0006>
+White Wizard: You will need thing to enter the Temple of Glory.
+0005=What is here?
+0000=Goodby
+<0007>
+Sign F: Entering the forest of kings.
+0000=OK
+<0008>
+Sign ?: Lost Village.
+0000=OK
+EndQuest!0007
+<0009>
+Sign ?: Town ???
+0000=OK
+DoQuest!0009
+QuestName!Find Town Name
+<0010>
+Boy: Welcome to Lost Village.
+0000=Ok
+EndQuest!0007
+<0011>
+Boy: Do you know where we are?
+0012=Where are we?
+0000=Ok
+<0012>
+Boy: I thought you knew
+0000=sorry I do not
+<0013>
+Lady: This village is lost. No one has ever found us except for the Black Wizard and you!!
+0000=Ok
+EndQuest!0007
+<0013>
+Lady: No one has ever found us except for the Black Wizard and you!!
+0000=Ok
+<0014>
+Girl: It wont be easy, there are some obstacles in the way!!
+0032=What wont be easy
+0033=What Town is this
+0000=Ok
+<0016>
+Sign T: Temple of Glory.
+0000=Ok
+<0020>
+Soldier 2: Only royal family may pass to the Temple of Glory.
+0000=Sorry
+<0021>
+Soldier 1: Talk to the other soldier.
+0000=Ok
+<0025>
+Soldier 3: That good, the troop is alive!
+0000=OK
+<0026>
+Soldier 4: How did you find them?
+0000=OK
+<0030>
+White Wizard: Yes, find the lost village
+0005=What is here?
+0006=Are there any temples?
+0030=Any thing else? 
+0000=Goodby
+DoQuest!0007
+QuestName!Find the lost village
+<0031>
+Sign U: Unknown Island
+0000=Bye
+<0032>
+Girl: It wont be easy to get to the gray wizard!!
+0034=Anything else?
+0033=What Town is this
+0000=Bye
+DoQuest!0013
+QuestName!Find Gray Wizard
+<0033>
+Girl: Read the sign
+0000=Bye
+<0034>
+Girl: I Heard someone is selling yellow bottles.
+0032=What wont be easy
+0033=What Town is this
+0000=Bye
+DoQuest!0014
+QuestName!Buy Yellow Bottle
+<0062>
+Lad: Thanks here is some toast
+0000=Great
+Give!Toast
+Giveqty!01
+Need!Rock
+NEEDQTY!01
+EndQuest!0018
+BombQty!01
+<0065>
+Lad: That rock is not leting my weeds grow. Take it off and i will give you something.
+0000=Bye
+DoQuest!0018
+QuestName!Remove Rock
+<0069>
+Soldier 2: Yes I will let you pass to so you can tell the king. 
+0000=OK
+FixX!0058
+FIXY!0028
+NeedQty!50
+NeedItem!Ticket
+EndQuest!0012
+

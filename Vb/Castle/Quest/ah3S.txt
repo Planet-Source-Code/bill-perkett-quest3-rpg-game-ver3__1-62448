@@ -1,0 +1,14 @@
+xxxxyyyyfixxfixy
+0040001500000000Nora:
+0035001700350007A1
+<SPEECH>
+<0001>
+Nora: I am Sad
+0003=Why are you sad
+0000=Goodby
+<0003>
+Nora: My husband left the island to look for a job, but he hasnt come back. Im really worried about this.
+0000=Goodby
+DoQuest!0006
+QuestName!Find Nora's husband
+

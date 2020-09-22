@@ -1,0 +1,243 @@
+xxxxyyyyNewxNewy
+0008000600000000Sign A:
+0013000800000000Mother:
+0006000700000000Brother:
+0009001700000000Carpinter:
+0030001800000000White Wizard:
+0032000900000000Lady: 
+0031003400000000Old Man: 
+0011001700000000Sign W:
+0021001000000000Sign M:
+0038000700000000Sign C:
+0043000900000000Sign B:
+0059000800000000Sign S:
+0061001400000000Guard:
+0010000600100017AH1
+0029000600290017AH2
+0035000600350017AH3
+0064000900150041B1
+0028003100100017AH4
+0029003000290017AH5
+<THOUGHT>
+Name!Mother:
+Thought!Glad to see you
+Pence!Talk to your brother
+Name!Brother:
+Thought!Do you have any toys
+Name!Carpinter:
+Thought!I like to build
+Pence!I need wood
+Name!White Wizard:
+Thought!You need to learn spells
+Name!Lady:
+Thought!I like to garden
+Name!Old Man: 
+Thought!Bomb those walls
+<SPEECH>
+<0001>
+Mother: Hello Son.
+0002=What should I Do?
+0003=Do you have any advice?
+0000=Goodby
+<0002>
+Mother: Go talk to your brother
+0003=Do you have any advice?
+0000=Ok Goodby
+DoQuest!0001
+QuestName!Talk to your brother
+<0003>
+Mother: To make spells you will need magic, I think theres some magic in the house.
+0002=What should I Do?
+0000=Ok Goodby
+<0004>
+Brother: The White Wizard wants to talk to you, you can find him on Mini Island.
+0000=Thanks
+EndQuest!0001
+BombQty!01
+DoQuest!0002
+QuestName!Find The White Wizard on Mini Island
+<0005>
+Brother: Do not bother me now
+0000=Bye
+SayOnce!
+<0005>
+Brother: I said -- Go Away
+0000=Scram
+<0006>
+Carpinter: I like to fix things
+0067=Can you Fix the Bridge?
+0077=Can you fix the star gate?
+0000=Ok Goodby
+QuestNo!10
+<0008>
+White Wizard: Sorry I can not help you any more ?
+0000=I do not know
+QuestYes!0003
+<0009>
+Sign A: #'s House.
+0000=Goodby
+<0010>
+Sign M: To Mini Island.
+0000=Goodby
+DoQuest!0002
+QuestName!Find The White Wizard on Mini Island
+<0011>
+White Wizard: What Island am I on?
+0013=Centurion Island
+0014=Mini Island
+0013=Mountain Island
+0013=Weed Island
+0000=I do not know
+EndQuest!0002
+BombQty!01
+<0012>
+White Wizard: What Island am I on?
+0013=Centurion Island
+0013=Mountain Island
+0013=Weed Island
+0000=I do not know
+<0013>
+White Wizard: I think you are lost
+0000=OK
+<0014>
+White Wizard:You wont be able to leave this island without magic. You should find the black wizards hidden in the island's to learn new spells.
+0000=Thanks
+Give!Ticket
+Giveqty!01
+DoQuest!0003
+QuestName!Find The Black Wizard
+<0015>
+Sign W: To the mountin of Wizards.
+0000=Goodby
+<0016>
+Black Wizard: Hello I am the black wizard
+0019=Do you know any magic spells? 
+0000=Thanks
+EndQuest!0003
+DoQuest!0004
+QuestName!C is the cut spell 
+<0018>
+Black Wizard: Do not bother me right now!
+0000=Goodby
+<0019>
+Black Wizard:I train only special people
+0018=Do you know The white Wizard? 
+0020=How do I become a special person
+0000=Ok
+<0020>
+Black Wizard:I not really sure
+0018=Do you know The white Wizard? 
+0000=Thanks
+<0021>
+Black Wizard: You have learned the Cut spell. Now you can use this spell by pressing the C key. Now head east to start your Quest.
+0000=Thanks
+NeedQty!01
+NeedItem!Ticket
+EndQuest!0004
+Give!CUT
+Giveqty!01
+<0032>
+Lady: Thanks here are twenty coins
+0000=Great
+Give!COIN
+Giveqty!20
+NeedItem!WEED
+NEEDQTY!01
+EndQuest!0005
+BombQty!01
+<0034>
+Lady: Hello I am a gardener 
+0035=How does your garden grow?
+0037=I see you have some weeds
+0096=What do you know about the star gate?
+0000=See you later
+QuestNo!10
+<0034>
+Lady: Hello I am a gardener 
+0035=How does your garden grow?
+0037=I see you have some weeds
+0000=See you later
+<0035>
+Lady: Feew!!, this weed is to hard. 
+0036=Can I help
+0037=I see you have some weeds
+0000=Ok
+<0036>
+Lady: Yes Please help me
+0000=Ok
+DoQuest!0005
+QuestName!Weed the garden
+<0037>
+Lady: That is an insult!
+0000=Bye
+<0038>
+Sign S: Star Gate to Centurion Island.
+0000=OK
+<0039>
+Sign B: Lot of weed grows in the bridge. Only those with special powers will leave this island.
+0000=Bye
+<0040>
+Sign C: To Centurion Island.
+0000=OK
+<0050>
+Guard: WHat are you doing here?
+0051=How do I get off this Island
+0052=How can I get to the star gate
+0053=Do you have any advice?
+0000=Bye
+<0051>
+Guard: You need to use the star gate
+0052=How can I get to the star gate
+0053=Do you have any advice?
+0000=Bye
+DoQuest!0010
+QuestName!Use Star Gate
+<0052>
+Guard: You can't use the star gate now because it is closed
+0051=How do I get off this Island
+0053=Do you have any advice?
+0000=OK
+<0053>
+Guard: Not Really
+0051=How do I get off this Island
+0052=How can I get to the star gate
+0000=Bye
+<0066>
+Carpinter: I like to fix things
+0067=Can you Fix the Bridge?
+0000=Ok Goodby
+<0067>
+Carpinter: Yep. I can fix this bridge but I will need some wood.
+0067=Can you Fix the Bridge?
+0000=Ok Goodby
+<0068>
+Carpinter: This bridge is fixed.
+0000=Thanks
+FixX!0010
+FIXY!0022
+NeedQty!01
+NeedItem!Wood
+<0070>
+Guard: That should fix the star gate
+0000=Thanks
+FixX!0063
+FIXY!0013
+NeedQty!01
+NeedItem!BlueGem
+EndQuest!0010
+BombQty!01
+<0077>
+Carpinter: Sorry I can not help you
+0000=Ok Goodby
+QuestDone
+<0088>
+Old Man: Hello
+0089=What can you tell me?
+0000=Ok Goodby
+<0089>
+Old Man: You can use these bombs on the wall to find cave(s). Use B to explode the bomb.
+0000=Ok Goodby
+<0096>
+Lady: I never heard of it
+0000=See you
+
