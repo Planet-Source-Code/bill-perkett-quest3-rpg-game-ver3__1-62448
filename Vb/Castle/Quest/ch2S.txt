@@ -1,0 +1,34 @@
+xxxxyyyyfixxfixy
+0061001200000000Hermit:
+0056001700620006C1
+<SPEECH>
+<0001>
+Hermit:Who Sent you
+0020=The boy outside sent me
+0021=What can you tell me
+0000=Bye
+EndQuest!0015
+<0010>
+Hermit:Please leave me alone
+0000=Bye
+<0020>
+Hermit:I glad that you came
+0021=What can you tell me
+0000=Bye
+<0021>
+Hermit:I found something a long time ago
+0020=The boy outside sent me
+0022=What did you find
+0000=Bye
+<0022>
+Hermit:It is paper with some writting on it
+0020=The boy outside sent me
+0021=What can you tell me
+0000=Bye
+<0050>
+Hermit:Here is the paper with some writting on it
+NeedQty!01
+NeedItem!YBottle
+Give!Map
+Giveqty!01
+QuestDone!0015

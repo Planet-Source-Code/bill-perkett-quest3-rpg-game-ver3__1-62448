@@ -1,0 +1,34 @@
+xxxxyyyyfixxfixy
+0040001600000000Green Wizard: 
+0036001800360008B1
+<SPEECH>
+<0005>
+Green Wizard: Hey I got my own shop but I cant sell you anything right now. I wonder why nobody comes!!.
+EndQuest!0014
+0058=Can I buy a yellow bottle?
+0000=Goodby
+<0010>
+Green Wizard: Hey I got my own shop but I cant sell you anything right now. I wonder why nobody comes!!.
+0000=Goodby
+<0050>
+Green Wizard: Here is a yellow Bottle
+0000=Thanks
+NeedQty!05
+NeedItem!Coin
+Give!YBottle
+Giveqty!01
+EndQuest!0014
+BombQty!01
+<0058>
+Green Wizard: Where did you hear about that?
+0059=A girl told me
+0000=Goodby
+<0059>
+Green Wizard: Do you expect me to give to you?
+0058=Can I buy a yellow bottle?
+0060=Yes
+0000=Goodby
+<0060>
+Green Wizard: Too Bad
+0058=Can I buy a yellow bottle?
+0000=Goodby

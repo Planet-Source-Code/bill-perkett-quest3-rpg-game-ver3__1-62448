@@ -1,0 +1,64 @@
+V5Five coins
+KYYellow Key
+KPPurple Key
+KGGreen Key
+KBBlue Key
+F1Apple
+M1Magic Book
+M2Magic Lamp
+ZZRed Flag
+T1Telescope
+T2Shovel
+PUUnknown Tool
+PQQueen
+PKKing
+PGGirl	
+V8Twenty Coins
+V9Ten coins
+T4Axe
+GGGreen Gem
+GBBlue Gem
+BYYellow Bottle 
+PCCool Guy
+T5Knife
+T6Torch
+TSSign
+PZWizard
+V1One coins
+T7Map
+YWYou Win
+GPPurple Gem
+LYYellow Lock	
+GRRed Gem
+PMMaster Wizard
+F2Bread
+PWWarLock
+TEEmpty Bucket
+TFFull Bucket
+T9Hammer
+BRRed Bottle 
+BWWiskey
+PEEgyptian Guy
+PNKnight
+PFFairy
+PDDesert Guy
+PLElf
+LPPurple Lock	
+LGGreen Lock	
+LBBlue Lock	
+BBBlue Bottle 
+BGGreen Bottle 
+TXSaw
+TYBow
+TZSword
+EEEye Ball
+TAArrow
+M3Magic Bottle
+SGSolid Gold
+F5Cheese
+TWShirt
+ZGGreen Flag
+CCCup
+FPPan
+PTDrum
+nnErase Item

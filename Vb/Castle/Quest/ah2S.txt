@@ -1,0 +1,32 @@
+xxxxyyyyfixxfixy
+0031001600000000Lady: 
+0029001700290007A1
+<SPEECH>
+<0001>
+Lady: There should be some wood in one of those jars, go ahead and take a peek.
+0002=What do you know about the star gate?
+0003=I need to get off the Island?
+0000=Goodby
+QuestNo!10
+<0002>
+Lady: Why should I tell you?
+0003=I need to get off the Island?
+0000=Goodby
+QuestNo!10
+<0003>
+Lady: I may be able to help you
+0002=What do you know about the star gate?
+0000=Goodby
+QuestNo!10
+<0010>
+Lady: There should be some wood in one of those jars, go ahead and take a peek.
+0000=Goodby
+<0020>
+Lady: Maybe This Gem will can help you.
+0000=Thanks
+Give!BlueGem
+Giveqty!01
+NeedQty!01
+NeedItem!Coin
+QuestNo!10
+

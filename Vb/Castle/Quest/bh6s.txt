@@ -1,0 +1,7 @@
+xxxxyyyyfixxfixy
+0038004800380038B1
+0042004700000000Man:
+<SPEECH>
+<0001>
+Man: I can not help you
+0000=Goodby

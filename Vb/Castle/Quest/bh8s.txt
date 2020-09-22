@@ -1,0 +1,68 @@
+xxxxyyyyfixxfixy
+0059003300590023B1
+0063002800000000Soldier 1:
+0049003200000000Soldier 2:
+0061001400000000Soldier 3:
+0059002100000000King:
+<SPEECH>
+<0001>
+Soldier 1: Halt
+0002=May I pass?
+0003=Do you have any advice?
+0000=Goodby
+<0002>
+Soldier 1: Only Kinght may pass
+0000=Goodby
+<0003>
+Soldier 1: No
+0000=Goodby
+<0013>
+Soldier 1: You may Pass
+0000=Goodby
+NeedItem!Sword
+NeedQty!01
+Fixx!0061
+FixY!0027
+<0021>
+Soldier 2: Hello
+0022=May I see the King?
+0023=Do you have any advice?
+0000=Goodby
+<0022>
+Soldier 2: Only Kinght may pass
+0000=Goodby
+<0023>
+Soldier 2: No
+0000=Goodby
+<0024>
+Soldier 2: You may Pass
+0000=Goodby
+NeedItem!Shield
+NeedQty!01
+Fixx!0055
+FixY!0024
+<0031>
+Soldier 3: Hello
+0032=May I see the King?
+0033=Do you have any advice?
+0000=Goodby
+<0032>
+Soldier 3: Only Kinght may pass
+0000=Goodby
+<0033>
+Soldier 3: No
+0000=Goodby
+<0043>
+Soldier 3: You may Pass
+0000=Goodby
+NeedItem!Armor
+NeedQty!01
+Fixx!0065
+FixY!0021
+<0053>
+King: You Win!!!
+0000=Goodby
+
+
+
+

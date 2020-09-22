@@ -1,0 +1,179 @@
+Quest Game is a complete  game.
+
+The object of the game is to solve different quests.
+As you read signs or talk to people, the
+response you get will be different
+depending on the quest you are on
+If you click on a item, the person will
+respond if they need the item at that time.
+To increase you Skill Level you can
+learn spells and catch rabbits.
+
+Includes 1) Easy map making, 2)Improved speech 
+ 3)Ability to use items and 4) Hidden rooms 
+
+Level None 0 points 
+Level  15 points Read thought
+Level  25 point pence (read feelings)
+Level  35 point Grow Grass 
+Level  45 point 1 Transport (1 square)
+Level  55 point 2 Transport (2 squares)
+Level  65 point 3 Transport (3 squares)
+
+
+****** Commands ***************
+A - Axe Tree            4 magic point
+B - Bomb Wall 
+C - Cut Weed            1 magic point
+D - Destroy Rock        5 magic point
+G - Grow Grass          4 magic point and Level Grow 35
+F - Fill Swamp          3 magic point
+L - Light Darkness      2 magic points
+Q - Quit
+S - Save
+Z - Zoom to 640 by 480
+1 - Transport (1 square)  5 magic point and Level Transport 1 45
+2 - Transport (2 squares) 6 magic point and Level Transport 2 55
+3 - Transport (3 squares) 7 magic point and Level Transport 3 65
+
+*************** S - Save ***************
+Will save a game based on your character's name
+
+Email any suggestions to Doispbillp@juno.com
+Email your quest  to Doispbillp@juno.com
+
+
+Make Game Buttons:
+ReadMap       - Read the map file and moves to X , Y location
+MakeMap       - Displays map making form
+ViewQuests    - View the quests
+Move          - Allows you to use I,J,K,M to move
+Add Inventory - Adds a few items
+Add Speech    - Displays speech making form
+
+
+******To making a game:***** 
+To make a game you
+1) Create a map
+2) Add thought (this can show additional clues and controls when a person can talk)
+3) Add speech (this is used to tell the item location and what the people say)
+4) In the speech you can define a quest, request an item, or give an item 
+
+The speech file has the x and y location of each person,sign, house, and star gate.
+For a person or sign you need the x and y location and the persons name
+For a house or star gate you need the x and y location and the new map name
+You also need the Newx and Newy location of where you will start on the new map
+
+xxxxyyyyNewxNewy
+0008000600000000Mother:          = Item Location and Item Name
+0010000600100017AH1              = Current Door x and Y ,  (NewMap)  X and Y and name
+<THOUGHT>                        = Thought Start
+Name!Mother:                     = Name and Item Name
+Thought!Hello                    = Thought
+Pence!I can Help                 = Feeling
+HideThought!                     = Hide Thought until you can pence
+WaitT!                           = Talk only if you read thought"
+WaitP!                           = Talk only if you can pence"
+<SPEECH>                         = Speech Start
+<0001>                           = Number 1
+Mother: Hello                    = Item 1 and and what they say 
+0003=Any advice?                 = The answer will be number 3
+0000=Goodby                      = End Speech
+<0003>                           = Number 3
+Mother: Talk to your brother     = Item 3 and and what they say 
+Win!                             = You Win
+Lose!                            = You Lose
+SayOnce!                         = Say only one time
+TakeAny!                         = Take any inventory item
+DoQuest!0001                     = Start quest 1 
+QuestName!Talk to your brother   = Quest Name
+EndQuest!0001                    = End quest 1 
+QuestNo!0001                     = Only if Quest 1 is started
+QuestYes!0001                    = Only if Quest 1 is Done
+QuestName!Talk to your brother   = Quest Name
+Give!Ticket                      = Items given to you 
+Giveqty!01                       = Give Qty
+NeedItem!Wood                    = Item you give away 
+Needqty!01                       = Need Qty
+Bombqty!01                       = Bombs given to you
+FixX!0010                        = X Pos - Make grass
+FixY!0022                        = Y Pos - Make grass
+
+**Note: # will be replaced with the Your name
+<0002>
+Girl 1: Hi #   (will be displayed as - Girl 1: Hi Goblin)
+
+**Note: In the Make mode, you can click on an item in the list to
+jump to that location
+You can use thought to:
+Give extra clues
+For example you can find out what the person is 
+thinking without have to talk to them 
+
+*********Thought Sequence*********
+1) Name!Mother:                     = Name and Item Name
+2) Thought!Hello                    = Thought
+3) Pence!I can Help                 = Feeling(you can choose not to talk to them)
+
+*********Speech Sequence*********
+1) What to say after quest is done  (QuestYes!0001)
+2) What to say if quest is started  (QuestNo!0001  or EndQuest!0001)
+3) What to say SayOnce! 
+4) What to say (the second time)
+5) What to say if you give me the item I need and quest is started (QuestNo!0001  or EndQuest!0001)
+
+*********Example 1*********
+Your brother will not say this until you have started quest 1
+
+<0004>
+Brother: The White Wizard wants to talk to you, you can find him on Mini Island.
+0000=Thanks
+EndQuest!0001
+BombQty!01
+DoQuest!0002
+QuestName!Find The White Wizard on Mini Island  
+
+*********Example 2*********
+Your brother will say Do not bother me now only once
+Then he will say I said -- Go Away
+
+<0005>
+Brother: Do not bother me now
+0000=Bye
+SayOnce!
+<0005>
+Brother: I said -- Go Away
+0000=Scram
+
+
+*********Example 3*********
+The carpenter will fix the bridge if you give him wood
+
+<0068>
+Carpinter: This bridge is fixed.
+0000=Thanks
+FixX!0010
+FIXY!0022
+NeedQty!01
+NeedItem!Wood
+
+*********Example 4*********
+
+The lady will give you 20 coins and 1 bomb if you weed her garden
+<0032>
+Lady: Thanks here are twenty coins
+0000=Great
+Give!COIN
+Giveqty!20
+NeedItem!WEED
+NEEDQTY!01
+EndQuest!0005
+BombQty!01
+
+*********Inventory Items********
+SAW        Bucket     LAMP     GOLD         APPLE     YKEY
+PURPLEGEM  GREENGEM   REDGEM   BLUEGEM      MAP       RKEY
+BOOK       BOTTLE     BBOTTLE  YBOTTLE      SWORD     BOW
+ARMOR      SHIELD     CANDLE
+
+(Coins Magic Wood Tickets Toast Bombs)

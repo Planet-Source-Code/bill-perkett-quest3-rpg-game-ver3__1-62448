@@ -1,0 +1,58 @@
+xxxxyyyyfixxfixy
+0020001200290015Carpinter: 
+0041001700000000Soldier 8: 
+0020000500000000Gray Wizard:
+0020001900000000Sign:
+0021001900240009B1
+<SPEECH>
+<0001>
+Soldier 8: What do you want?
+0020=What should I do?
+0000=Bye
+<0010>
+Gray Wizard: Hello
+0011=I would like to learn some magic
+0000=Bye
+EndQuest!0013
+<0011>
+Gray Wizard: The great book is lost
+0012=Where was it lost
+0000=Bye
+DoQuest!0017
+QuestName!Find Lost Book
+<0012>
+Gray Wizard: I think it was locked   in a secret room
+0000=Bye
+<0020>
+Soldier: Give me 20 coins and i will use my sword to cut that tree thats blocking your way.
+0000=Bye
+<0030>
+Soldier 8: Thanks for the coins,the trees are gone
+FixX!0024
+FIXY!0016
+NeedQty!20
+NeedItem!Coin
+0000=Bye
+<0040>
+Carpinter: Yep. I can fix this bridge but i will need some wood.
+0000=Bye
+<0050>
+Carpinter: The bridge is fixed.
+0000=Bye
+FixX!0026
+FIXY!0012
+NeedQty!1
+NeedItem!Wood
+<0060>
+Gray Wizard:You now have Destory. Use D to destroy rocks.
+NeedQty!1
+NeedItem!Book
+Give!Destroy
+Giveqty!01
+0000=Bye
+EndQuest!0017
+BombQty!01
+<0080>
+Sign: Quest 2
+0000=Bye
+

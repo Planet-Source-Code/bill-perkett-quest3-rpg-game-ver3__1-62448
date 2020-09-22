@@ -1,0 +1,38 @@
+DoQuest!0001
+QuestName!Talk to your brother
+DoQuest!0002
+QuestName!Find The White Wizard on Mini Island
+DoQuest!0003
+QuestName!Find The Black Wizard
+DoQuest!0004
+QuestName!C is the cut spell
+DoQuest!0005
+QuestName!Weed the Garden 
+DoQuest!0006
+QuestName!Find Nora's husband
+DoQuest!0007
+QuestName!Find Lost Village
+DoQuest!0008
+QuestName!Find food for Soldier 4
+DoQuest!0009
+QuestName!Quest 9
+DoQuest!0010
+QuestName!Use Star Gate
+DoQuest!0011
+QuestName!Enter Secret room
+DoQuest!0012
+QuestName!Enter the temple of Glory
+DoQuest!0013
+QuestName!Find Gray Wizard
+DoQuest!0014
+QuestName!Buy Yellow Bottle
+DoQuest!0015
+QuestName!Talk to the hermit
+DoQuest!0016
+QuestName!Get Password
+DoQuest!0017
+QuestName!Find Lost Book
+DoQuest!0018
+QuestName!Find Lost Item
+DoQuest!0019
+QuestName!Remove Rock

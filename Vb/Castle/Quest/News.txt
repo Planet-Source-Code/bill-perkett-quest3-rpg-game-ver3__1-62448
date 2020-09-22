@@ -1,0 +1,18 @@
+xxxxyyyyNewxNewy
+0006000700000000Sign 1:
+0008000700000000Girl 1:
+0009000600090007A1
+<SPEECH>
+<0001>
+Sign 1: Game 1
+0000=Bye
+<0002>
+Girl 1: Hi #
+0003=Can you tell me how to play the game?
+0000=Bye
+<0003>
+Girl 1: Just enter the house
+0000=Thanks
+
+
+  

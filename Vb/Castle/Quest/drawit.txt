@@ -1,0 +1,118 @@
+G  imgGrass.Picture, (X + 3) * 32, (Y + 3) * 32
+B  imgBush.Picture, (X + 3) * 32, (Y + 3) * 32
+b  imgTrees.Picture, (X + 3) * 32, (Y + 3) * 32
+<  imgWeed.Picture, (X + 3) * 32, (Y + 3) * 32
+>  imgRockHill.Picture, (X + 3) * 32, (Y + 3) * 32
+0  imgSign.Picture, (X + 3) * 32, (Y + 3) * 32
+   Q  imgTOL.Picture, (X + 3) * 32, (Y + 3) * 32
+q  imgTOL2.Picture, (X + 3) * 32, (Y + 3) * 32
+A  imgBOL.Picture, (X + 3) * 32, (Y + 3) * 32
+a  imgBOL2.Picture, (X + 3) * 32, (Y + 3) * 32
+W  imgTOR.Picture, (X + 3) * 32, (Y + 3) * 32
+w  imgTOR2.Picture, (X + 3) * 32, (Y + 3) * 32
+S  imgBOR.Picture, (X + 3) * 32, (Y + 3) * 32
+s  imgBOR2.Picture, (X + 3) * 32, (Y + 3) * 32
+E  ImgIL.Picture, (X + 3) * 32, (Y + 3) * 32
+e  ImgIL2.Picture, (X + 3) * 32, (Y + 3) * 32
+R  ImgIR.Picture, (X + 3) * 32, (Y + 3) * 32
+r  ImgIR2.Picture, (X + 3) * 32, (Y + 3) * 32
+D  ImgIT.Picture, (X + 3) * 32, (Y + 3) * 32
+d  ImgIT2.Picture, (X + 3) * 32, (Y + 3) * 32
+F  ImgIB.Picture, (X + 3) * 32, (Y + 3) * 32
+f  ImgIB2.Picture, (X + 3) * 32, (Y + 3) * 32
+T  ImgTIL.Picture, (X + 3) * 32, (Y + 3) * 32
+t  ImgTIL2.Picture, (X + 3) * 32, (Y + 3) * 32
+Y  ImgTIR.Picture, (X + 3) * 32, (Y + 3) * 32
+y  ImgTIR2.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "V" 'Border Bottom water
+        PaintPicture ImgBIL.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "v" 'Border Bottom grass
+        PaintPicture ImgBIL2.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "H" 'Border Bottom water
+        PaintPicture ImgBIR.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "h" 'Border Bottom grass
+        PaintPicture ImgBIR2.Picture, (X + 3) * 32, (Y + 3) * 32
+      
+      Case Is = "U" 'Water
+        PaintPicture ImgTIL3.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "u" 'grass
+        PaintPicture ImgIR3.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "I" 'Water
+        PaintPicture ImgTIR3.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "i" 'grass
+        PaintPicture ImgIB3.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "J" 'Water
+        PaintPicture ImgBIL3.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "j" 'grass
+        PaintPicture ImgIL3.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "K" 'Water
+        PaintPicture ImgBIR3.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "k" 'grass
+        PaintPicture ImgIT3.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "," 'grass
+        PaintPicture imgHouseExitB1.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = ";" 'grass
+        PaintPicture imgHouseExitB2.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "M" 'grass
+        PaintPicture imgHouseExit.Picture, (X + 3) * 32, (Y + 3) * 32
+      
+      Case Is = "-" 'Water
+        PaintPicture ImgBlack.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "_" 'Nothing
+        PaintPicture imgNothing.Picture, (X + 3) * 32, (Y + 3) * 32
+      
+      Case Is = "Z" 'Wall bottom
+        PaintPicture imgWallBottom.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "X" 'Wall top
+        PaintPicture imgWallTop.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "C" 'Floor Blue 1
+        PaintPicture imgFloor1.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "z" 'Floor Tronco
+        PaintPicture imgWall2.Picture, (X + 3) * 32, (Y + 3) * 32
+            
+      Case Is = "1" 'Laddy
+        PaintPicture imgCharWomen1.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "2" 'Boy 1
+        PaintPicture imgCharBoy1.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "3" 'Boy 2
+        PaintPicture imgCharBoy2.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "4" 'Good Wizard
+        PaintPicture imgCharGoodWizard.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "5" 'Bad Wizard
+        PaintPicture imgCharBadWizard.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "6" 'Laddy
+        PaintPicture imgCharWomen2.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "7" 'Laddy
+        PaintPicture imgCharWomen3.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "8" 'Soldier
+        PaintPicture imgCharSoldier.Picture, (X + 3) * 32, (Y + 3) * 32
+      
+      
+      Case Is = "/"
+        PaintPicture imgBlueTop.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "\"
+        PaintPicture imgRedTop.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "*"
+        PaintPicture imgWindow1.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "#" '3
+        PaintPicture imgDoor1.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "@" '3
+        PaintPicture imgStarGate.Picture, (X + 3) * 32, (Y + 3) * 32
+    
+      Case Is = "!" 'Jar
+        PaintPicture imgJar.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "(" 'Table
+        PaintPicture imgTable1.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = ")" 'Table2
+        PaintPicture imgTable2.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "[" 'Bed
+        PaintPicture imgBed1.Picture, (X + 3) * 32, (Y + 3) * 32
+      Case Is = "]" 'Bed2
+        PaintPicture imgBed2.Picture, (X + 3) * 32, (Y + 3) * 32
+    
+    
+      End Select
+skip:
+    Next
+  Next
+  

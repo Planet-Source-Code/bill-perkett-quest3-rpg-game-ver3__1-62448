@@ -1,0 +1,7 @@
+xxxxyyyyfixxfixy
+0042004700000000Man:
+0038004800350054B1
+<SPEECH>
+<0001>
+Man: Get Lost
+0000=Ok

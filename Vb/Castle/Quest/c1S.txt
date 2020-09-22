@@ -1,0 +1,67 @@
+xxxxyyyyfixxfixy
+0054001200000000Sign 1:
+0041000900000000Sign 2:
+0065000600000000Boy:
+0031003000000000Green Wizard:
+0032000900000000Sign 3: 
+0062000900590039B1
+0035000500100007A1
+0020000900190026C1
+0019002500210009C1
+0029000800640057B1
+0024000700410038B1
+0021000500640010A1
+0056000600560017CH1
+0062000500560017CH2
+<SPEECH>
+<0001>
+Sign 1: Lost Island
+0000=Bye
+<0002>
+Sign 2: Weed Island
+0000=Bye
+<0003>
+Boy: Hello
+0026=What should I do?
+0016=What can you tell me about this Island?
+0000=Bye
+QuestYes!14
+<0013>
+Boy: Hello
+0016=What can you tell me about this Island?
+0000=Bye
+<0016>
+Boy: There are a lot of star gates nearby, but I dont know where they all go
+0000=OK
+<0020>
+Sign 3: Star gates nearby
+0000=Ok
+<0026>
+Boy: Go talk to the hermit who lives on this island
+0016=What can you tell me about this Island?
+0000=Bye
+DoQuest!0015
+QuestName!Talk to the hermit
+BombQty!01
+<0040>
+Green Wizard: Hello
+0041=How are you?
+0000=Bye
+<0041>
+Green Wizard: I lost something
+0042=What did you lose?
+0000=Bye
+QuestName!Find Lost Item
+DoQuest!0019
+<0042>
+Green Wizard: I am not sure
+0000=Bye
+<0060>
+Green Wizard: Thanks here is a sword
+0000=Bye
+EndQuest!0019
+Give!Sword
+GiveQty!01
+NeedItem!Map
+NeedQty!01
+
